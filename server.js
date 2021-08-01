@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 // cocoa routes
 app.use('/routing', require('./routes/routerz'))
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT; //const PORT = process.env.PORT || 8000
 
 //Geolocation API;
 //app.post
