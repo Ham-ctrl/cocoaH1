@@ -1,1 +1,1 @@
-web:node cocoaH1/server.js
+web:node ./server.js
