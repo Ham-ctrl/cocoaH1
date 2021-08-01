@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const MONGODB_URI = ;
+//const MONGODB_URI = ;
 module.exports = async function () {
     try { 
-        let db = await mongoose.connect( MONGODB_URI , { 
+        let db = await mongoose.connect(  {  //MONGODB_URI ,
             useNewUrlParser: true,
             useCreateIndex: true,
             useUnifiedTopology: true
