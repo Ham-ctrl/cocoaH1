@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Defining my primary colors. Reason reUsability*/
+:root {
+    --color--btn: #edb036;
+
+    --title-font-para: #878686;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {}
+
+body {}
+
+main {}
+
+.sectioN {
+    padding-right: 5px;
+    padding-left: 15px;
+    overflow: hidden
+}
+
+img {
+    display: ;
+    max-width: 100%;
+}
+
+/* Homepage (THIRD PHASE) , holistic*/
+/* Jump to */
+.navBar {
+    display: flex;
+    justify-content: ;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: /*red*/;
+    position: /*fixed*/;
+}
+.navBarW {
+    max-width: /*50%*/;
+    background-color: /*fuchsia*/;
+}
+.navBarMo {
+    /*max-width: 30%;*/
+    background-color: /*yellow*/;
+    position: ;
+}
+.navBarMoT {
+    /*max-width: 30%;*/
+    background-color: /*green*/;
+}
+/* Matching with NAVBAR width*/
+.kontent {
+    max-width: /*50%*/;
+    /*max-width: 30%;*/
+    background-color: /*black*/;
+}
+.search-bar__input {
+    width: ;
+}
+.search-bar__submit {
+    position: relative;
+    bottom: 20px;
+    right: ;
+    left: 119px;
+}
+/*@media screen and (min-width: 360px) {
+    .search-bar__submit {
+        position: relative;
+        left: 149px;
+    }
+}*/
+
+/* holistic PARTITION (Yellow or burger)*/
+.navBarMo li {
+    list-style: none;
+}
+.navBarMo a {
+    /*color: white;*/
+    text-decoration: none;
+}
+.navBurg_closer {
+    position: ;
+    padding-right: 2px
+}
+.navBurg_closer div {
+    cursor: pointer;
+    background-color: /*var(--color--btn)*/ #edb036;
+    width: 20px;
+    height: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.nav-toggle { display: none;}
+
+.navUl {
+    position: absolute;
+    display: none;
+}
+.navUl ul {
+    background-color: /*yellow*/;
+    width: 140px;
+}
+.nav-toggle:checked ~ .navUl {
+    display: block;
+}
+
+/* footer*/
+footer {
+    background-color: black;
+    margin-top: 40px;
+}
+.fooPart1 {
+    background-color: /*black*/;
+}
+.fooPart1 p{
+    text-align: center;
+    color: white;
+}
+.fooPart2 {
+    background-color: /*fuchsia*/;
+    color: ;
+}
+.fooPart2Meaz {
+    background-color: /*green*/;
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    padding: auto;
+}
+.fooPart2Meaz li {
+    color:;
+    padding: 5px;
+    text-align: center;
+}
+.fooPart2Meaz a {
+    
+}
+.fooPara {
+    color: white;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 700px) {
+    .navBar {
+        background-color: /*blue*/;
+    }
+    .navBarMo {
+        width: 1024px;
+    }
+    .navBurg {
+        display: none;
+    }
+    .navUl {
+        display: block;
+        position: relative;
+    }
+    .navUl ul {
+        display: flex;
+        justify-content: ;
+    }
+    .navUl li {
+        padding-left: 20px;
+    }
+}/* Last*/
+

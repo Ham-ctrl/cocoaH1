@@ -1,0 +1,39 @@
+.heroBe {
+    background-image: url("/images/productLernMbe/butaheda.jpg");
+    background-size: cover;
+}
+.heroBe {
+    height: 290px;
+}
+.heroBe {
+    padding-top: 210px;
+    text-align: center;
+}
+.aside1Be {
+    margin-top: 40px;
+}
+
+/* */
+.gridBe,
+.gridBe2,
+.gridBe3 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+    
+    .gridBe,
+    .gridBe2,
+    .gridBe3 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+    .gridBe,
+    .gridBe2,
+    .gridBe3 {
+        margin-top: 100px;
+    }    
+
+}

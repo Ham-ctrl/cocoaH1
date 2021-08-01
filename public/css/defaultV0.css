@@ -1,0 +1,190 @@
+.section {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.btn {
+    background-color: var();
+    padding-top: ;
+    padding: 10px;
+    text-align: center;
+}
+.btn a {
+    background-color: var(--color--btn);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: px;
+}
+.btn a:hover {
+    color: fuchsia;
+}
+.zpan span{
+    border-bottom: 5px solid var(--color--btn);
+}
+h1,
+h2,
+h3 {
+
+}
+p { 
+    color: var(--title-font-para);
+}
+
+/* hero here below is ABOUTUS*/
+/* After burger in other page is where hero is */
+.hero {
+    background-image: url("/images/Cocoa-heda.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.heroHeda {
+    padding-top: 50px;
+}
+#hedaCala {
+    color: white;
+}
+.heroHeda h2 {
+    color: white;
+}
+.hero p {
+    color: white;
+}
+
+/*ABOUTUS*/
+.aside1 {
+    margin-top: 40px;
+}
+.aside1_aboutUs h1 {
+    color: var(--color--backGr);
+    font-size: 1rem;
+}
+.Grid {
+    display: flex;
+    flex-direction: column;
+}
+.aside1 a,
+.aside3 a,
+.aside4 a {
+    text-decoration: none;
+}
+.aside1_aboutUs h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* aside2 */
+.aside2 {
+    background-color: #e2e0e0;
+    margin-top: 50px
+}
+.aside2 h1 {
+    padding-bottom: 5px;
+}
+.aside2 h2 {
+    padding-top: 20px;
+}
+.whyGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+/* aside3 Corporate*/
+.aside3 {
+    background-color: #2e5179;
+    margin-top: 100px;
+}
+.aside3 h1 {
+    text-align: center;
+    color: white;
+}
+.aside3 p {
+    color: white;
+}
+.btn-corp {
+    margin-top: 50px;
+}
+.productGrid {
+    /*display: flex;
+    flex-direction: column;*/
+    display: grid;
+}
+
+/* aside4 */
+.aside4 {
+    background-color: ;
+    margin-top: 40px;
+}
+.aside4 h1 {
+    text-align: center;
+    margin-bottom: 63px;
+}
+.aside4 h2 {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    .hero {
+        height: 300px;
+        padding-top: 100px;
+    }
+    .hero h1 {}
+    .hero h2 {
+        color: var(--color--btn)
+    }
+    .hero p {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .heroHeda {}
+
+    /*ABOUTUS*/
+    .aside1 {
+        margin-top: 40px;
+    }
+    .Grid{
+        display: flex;
+        flex-direction: row;
+
+        /*display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;*/
+    }
+
+    /* aside2 */
+    .whyGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* aside3 Corporate*/
+    .corp {
+        max-width: 55ch;
+        margin-right:  auto;
+        margin-left:  auto;
+    }
+
+    /* aside4 
+    img {
+        margin: auto;
+    }*/
+    .productGrid {
+        display: grid;
+        grid-template-columns: 30% 30% 25%;
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    /*.magiAuto img {
+        margin: auto;
+    }*/
+
+    .texCent {
+        text-align: center;
+    }
+
+} /* L*/

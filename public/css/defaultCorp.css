@@ -1,0 +1,65 @@
+
+
+/* hero here below is ABOUTUS*/
+/* After burger in other page is where hero is */
+.heroCorp {
+    height: 290px;
+}
+.heroCorp {
+    background-image: url("/images/corpLearnMImg/corpHero.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.heroCorp {
+    padding-top: 210px;
+    text-align: center;
+}
+.heroHeda {
+    padding-top: 50px;
+}
+#hedaCala {
+    color: white;
+}
+.heroCorp h1{
+    font-family: sans-serif;
+}
+
+/* aside0*/
+.aside0Corp {
+    margin-top: 40px;
+}
+
+
+/* */
+.gridEnv,
+.gridBus,
+.gridSaf,
+.gridChar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 700px) {
+    
+    .aside0Corp {
+        text-align: center;
+        max-width: 70ch;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .gridEnv,
+    .gridBus,
+    .gridSaf,
+    .gridChar {
+    display: grid;
+    /*flex-direction: row;*/
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    }
+    .aside3 h1 {
+        color: black;
+    }
+
+}/* L*/

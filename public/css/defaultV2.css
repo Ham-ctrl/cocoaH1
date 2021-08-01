@@ -1,0 +1,41 @@
+.gridForm {
+    display: flex;
+    flex-direction: column;
+}
+    .formOuter {
+    margin-top: 50px;
+    background-color: #047aed;
+}
+.formInner {
+    margin-top: 50px;
+    background-color: ;
+}
+
+.mgName {
+    margin-left: 35px;
+}
+.mgComp {
+    margin-left: 5px;
+}
+.mgEmail {
+    margin-left: 14px;
+}
+.mgMes {
+    margin-left: 31px;
+}
+.mgbtn {
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .gridForm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .mgbtn {
+        margin-right: 270px;
+    }
+}
